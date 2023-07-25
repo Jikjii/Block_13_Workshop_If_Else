@@ -1,6 +1,7 @@
 // IS TRUTHY
 const stringOne = "";
 
+
 if (stringOne) {
     console.log(true);
 } else if (stringOne === null) {
@@ -51,3 +52,4 @@ if (param1A === param1B || param2A == param2B) {
 } else {
     console.log(false)
 }
+
